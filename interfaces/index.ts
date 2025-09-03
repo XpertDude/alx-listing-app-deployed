@@ -30,3 +30,12 @@ export interface PropertyProps {
         image: string;
         discount: string
 }
+
+export interface Property {
+  title: string;
+  location: string;
+  price: number;
+  description: string;
+  imageUrl: string
+  // Add other fields as needed
+}
