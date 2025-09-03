@@ -1,4 +1,5 @@
 import { Property } from "@/interfaces";
+import Image from "next/image";
 import React from "react";
 
 interface PropertyDetailProps {
